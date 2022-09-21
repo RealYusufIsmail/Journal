@@ -11,3 +11,9 @@ struct AlternativeContentView: View {
         Text("Hello, World!")
     }
 }
+
+struct AlternativeContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        AlternativeContentView()
+    }
+}
